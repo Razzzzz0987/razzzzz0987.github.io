@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meal Plan Completion Outside of Program Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Meal Plan Completion Outside of Program Calculator</h1>
+        </header>
+        <div class="intro">
+            <p>Welcome to my meal plan completion calculator!</p>
+            <p>This is designed for clients in eating disorder recovery to help fill out things like self-observation forms.</p>
+            <p>If you want to count in-program meals towards weekly completion, put 0 for the second question.</p>
+            <p>The first two questions are pre-filled out for a standard IOP plan but you can change them to fit your plan!</p>
+            <p>Fill out the questions below then click submit to get your completion percentage.</p>
+            <p>:)</p>
+        </div>
+        <div class="forms">
+            <form id="dayMealsForm">
+                <label for="daymeals">How many meals and snacks (combined) per <strong>day</strong> does your meal plan call for?</label>
+                <input id="daymeals" name="daymeals" type="number" value="6"><br><br>
+                <label for="programmeals">How many in-program meal and snack groups (combined) are there each <strong>week</strong>?</label>
+                <input id="programmeals" name="programmeals" type="number" value="4"><br><br>
+                <label for="skipeatoption">How many meals did you</label>
+                <select id="skipeatoption" name="skipeatoption">
+                    <option value="skip">skip</option>
+                    <option value="eat">eat</option>
+                </select>
+                <label for="skippedoreatenmeals">this week?</label>
+                <input id="skippedoreatenmeals" name="skippedoreatenmeals" type="number">
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <h2 class="results" id="results">result error</h2>
+        <footer>
+            <p>made by Nanette A.</p>
+        </footer>
+    </body>
+</html>

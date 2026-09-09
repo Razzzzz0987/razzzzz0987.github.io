@@ -1,0 +1,14 @@
+* {
+    text-align: center;
+}
+html {
+    padding: 10px;
+}
+.results {
+    display: none;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
