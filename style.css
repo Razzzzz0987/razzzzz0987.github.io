@@ -4,6 +4,24 @@
 html {
     padding: 10px;
 }
+.forms {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20vw;
+}
+input {
+    width: 10vw;
+    margin: 0 0.5rem 1rem 1rem;
+    border: grey 2px solid;
+    background-color:gainsboro;
+    color: black;
+}
+select {
+    margin: 0 0.5rem 1rem 0.5rem;
+}
+.submitbutton {
+    margin: 0 auto;
+}
 .results {
     display: none;
 }

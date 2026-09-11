@@ -17,12 +17,16 @@
             <p>Fill out the questions below then click submit to get your completion percentage.</p>
             <p>:)</p>
         </div>
-        <div class="forms">
-            <form id="dayMealsForm">
+        <form id="dayMealsForm">
+            <div class="forms">
                 <label for="daymeals">How many meals and snacks (combined) per <strong>day</strong> does your meal plan call for?</label>
                 <input id="daymeals" name="daymeals" type="number" value="6"><br><br>
+            </div>
+            <div class="forms">
                 <label for="programmeals">How many in-program meal and snack groups (combined) are there each <strong>week</strong>?</label>
                 <input id="programmeals" name="programmeals" type="number" value="4"><br><br>
+            </div>
+            <div class="forms">
                 <label for="skipeatoption">How many meals did you</label>
                 <select id="skipeatoption" name="skipeatoption">
                     <option value="skip">skip</option>
@@ -30,10 +34,10 @@
                 </select>
                 <label for="skippedoreatenmeals">this week?</label>
                 <input id="skippedoreatenmeals" name="skippedoreatenmeals" type="number">
-
-                <input type="submit" value="Submit">
-            </form>
-        </div>
+            </div>
+            <br>
+            <input class="submitbutton" type="submit" value="Submit">
+        </form>
         <h2 class="results" id="results">result error</h2>
         <footer>
             <p>made by Nanette A.</p>
